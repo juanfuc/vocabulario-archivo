@@ -1,6 +1,6 @@
 {
     "@context": {
-      "archivo": "http://example.org/archivo#"
+      "archivo": "https://juanfuc.github.io/vocabulario-archivo/archivo.jsonld"
     },
     "@graph": [
       {
