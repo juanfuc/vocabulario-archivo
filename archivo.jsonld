@@ -1,0 +1,26 @@
+{
+    "@context": {
+      "archivo": "http://example.org/archivo#"
+    },
+    "@graph": [
+      {
+        "@id": "archivo:subseccion",
+        "@type": "rdf:Property",
+        "rdfs:label": "Subsección",
+        "rdfs:comment": "Una subsección dentro de una sección principal."
+      },
+      {
+        "@id": "archivo:serie",
+        "@type": "rdf:Property",
+        "rdfs:label": "Serie",
+        "rdfs:comment": "Una serie a la que pertenece el recurso."
+      },
+      {
+        "@id": "archivo:subserie",
+        "@type": "rdf:Property",
+        "rdfs:label": "Subserie",
+        "rdfs:comment": "Una subserie dentro de una serie."
+      }
+    ]
+  }
+  
